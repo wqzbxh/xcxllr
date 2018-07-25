@@ -1,0 +1,110 @@
+<view class="calender">
+  <view class="wrapper">
+  <view class="og-calendar" >
+    <view class="header">
+      <view class="date-info">
+        <!-- <text>{{showYear}}年{{showMonth}}月</text> -->
+        <!-- <text bindtap='gotoToday' class='today'>今</text> -->
+        <!-- <view class='morePlan'><slot ></slot></view> -->
+      </view>
+    </view> 
+    <view class='calendar-content'>
+     <view class="week row">
+          <view class="col">
+            <text>一</text>
+          </view>
+          <view class="col">
+            <text>二</text>
+          </view>
+          <view class="col">
+            <text>三</text>
+          </view>
+          <view class="col">
+            <text>四</text>
+          </view>
+          <view class="col">
+            <text>五</text>
+          </view>
+          <view class="col">
+            <text>六</text>
+          </view>
+          <view class="col">
+            <text>日</text>
+          </view>
+        </view>
+      <view class="body row">  
+      <swiper class='weekShow'  hidden="{{calendarType}}"  bindchange='swiperChange'  circular="true" >
+       <swiper-item>
+        <block wx:for="{{showWeekDays}}" wx:key="_id">
+        <view bindtap="dateClickEvent" data-haveplan="{{item.havePlan == 'block'? 'yes':'no' }}" data-year="{{item.year}}" data-month="{{item.month}}" data-date="{{item.date}}" class="col {{data.showMonth == item.month ? '' : 'old'}} {{data.currentDate == item.date && data.currentYear==item.year && data.currentMonth == item.month ? 'current' : ''}} {{item.active ? 'active' : ''}}">
+          <text>{{item.date}}</text>
+          <view class='havePlanDot' style='display:{{item.havePlan}}'>.</view>
+        </view> 
+      </block>
+       </swiper-item>
+        <swiper-item>
+        <block wx:for="{{showWeekDays}}" wx:key="_id">
+        <view bindtap="dateClickEvent" data-haveplan="{{item.havePlan == 'block'? 'yes':'no' }}" data-year="{{item.year}}" data-month="{{item.month}}" data-date="{{item.date}}" class="col {{data.showMonth == item.month ? '' : 'old'}} {{data.currentDate == item.date && data.currentYear==item.year && data.currentMonth == item.month ? 'current' : ''}} {{item.active ? 'active' : ''}}">
+          <text>{{item.date}}</text>
+          <view class='havePlanDot' style='display:{{item.havePlan}}'>.</view>
+        </view> 
+      </block>
+       </swiper-item>
+       <swiper-item>
+        <block wx:for="{{showWeekDays}}" wx:key="_id">
+        <view bindtap="dateClickEvent" data-haveplan="{{item.havePlan == 'block'? 'yes':'no' }}" data-year="{{item.year}}" data-month="{{item.month}}" data-date="{{item.date}}" class="col {{data.showMonth == item.month ? '' : 'old'}} {{data.currentDate == item.date && data.currentYear==item.year && data.currentMonth == item.month ? 'current' : ''}} {{item.active ? 'active' : ''}}">
+          <text>{{item.date}}</text>
+          <view class='havePlanDot' style='display:{{item.havePlan}}'>.</view>
+        </view> 
+      </block>
+       </swiper-item>
+      </swiper>
+
+       <swiper class='monthShow' hidden="{{!calendarType}}"  bindchange='swiperChange2'  circular="true" >
+       <swiper-item>
+        <block wx:for="{{data.dates}}" wx:key="_id">
+        <view bindtap="dateClickEvent" data-haveplan="{{item.havePlan == 'block'? 'yes':'no' }}" data-year="{{item.year}}" data-month="{{item.month}}" data-date="{{item.date}}" class="col {{data.showMonth == item.month ? '' : 'old'}} {{data.currentDate == item.date && data.currentYear==item.year && data.currentMonth == item.month ? 'current' : ''}} {{item.active ? 'active' : ''}}">
+          <text>{{item.date}}</text>
+          <view class='havePlanDot' style='display:{{item.havePlan}}'>.</view>
+        </view> 
+      </block>
+       </swiper-item>
+        <swiper-item>
+        <block wx:for="{{data.dates}}" wx:key="_id">
+        <view bindtap="dateClickEvent" data-haveplan="{{item.havePlan == 'block'? 'yes':'no' }}" data-year="{{item.year}}" data-month="{{item.month}}" data-date="{{item.date}}" class="col {{data.showMonth == item.month ? '' : 'old'}} {{data.currentDate == item.date && data.currentYear==item.year && data.currentMonth == item.month ? 'current' : ''}} {{item.active ? 'active' : ''}}">
+          <text>{{item.date}}</text>
+          <view class='havePlanDot' style='display:{{item.havePlan}}'>.</view>
+        </view> 
+      </block>
+       </swiper-item>
+       <swiper-item>
+        <block wx:for="{{data.dates}}" wx:key="_id">
+        <view bindtap="dateClickEvent" data-haveplan="{{item.havePlan == 'block'? 'yes':'no' }}" data-year="{{item.year}}" data-month="{{item.month}}" data-date="{{item.date}}" class="col {{data.showMonth == item.month ? '' : 'old'}} {{data.currentDate == item.date && data.currentYear==item.year && data.currentMonth == item.month ? 'current' : ''}} {{item.active ? 'active' : ''}}">
+          <text>{{item.date}}</text>
+          <view class='havePlanDot' style='display:{{item.havePlan}}'>.</view>
+        </view> 
+      </block>
+       </swiper-item>
+      </swiper>
+    </view>
+    </view>
+  </view>
+  <view class='planDetail' style='display:{{showPlan}}'>
+    <view class='detail-title '>{{data.selectDateText}}</view> 
+    <block wx:for="{{showPlans}}" wx:key="_id">
+    <view wx:if ='{{index < 2}}' class='plan-item' data-planid='{{item.id}}' bindtap='clickPlanItem'>
+        <view class='item-left'>
+           <view class='font28'>{{item.start}}</view>
+           <view class='gray font22'>{{item.end}}</view>
+        </view>
+        <view class='item-mid'>
+           <image src='../../images/icon-calendar.png'></image>
+        </view>
+        <view class='item-right'>
+         <text>{{item.planDetail}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
+</view> 

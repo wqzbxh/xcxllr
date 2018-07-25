@@ -1,0 +1,94 @@
+<import src="../../template/courseList.wxml"/>
+<template is="msgItem" data="{{...item}}"/>
+<view></view>
+ <view class="flex-wrp row textFont-15" style="flex-direction:row;">
+        <navigator  url='../teacher_index/teacher_index'  class="flex-item col-la-3 padding-t-1 border-buttom-out"> 
+            日程
+        </navigator>
+        <view class="flex-item col-la-3 padding-t-1 border-buttom"> 
+             年度
+        </view>
+        <navigator url='../teacher_index_week/teacher_index_week' class="flex-item col-la-3 padding-t-1 border-buttom-out"> 
+              课程
+        </navigator>
+      </view>
+
+<view class='container'>
+     <view class="flex-wrp row textFont-12 margin-top-1" style="flex-direction:row;">
+        <view class="flex-item col-la-2 "> 
+          <view class='text-sj-type margin-top-up-5' >2018-09-01~2019-06</view> 
+        </view>
+        <picker  class="flex-item col-la-2 margin-top-up-5 text-leve-right" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                {{array[index]}}　▼
+          </picker>
+       　 
+      </view>
+</view> 
+
+<view class=' bk-fff border-raduis-1 padding-t-2 container margin-top-1 shadow '>
+    <view class="flex-wrp row textFont-12" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>9月</view> 
+          <view class='text-sj-type margin-top-up-5' >05号</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchr.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>STEM暑期夏令营，包括计算机编程基础、3D打印</view> 
+        </view>
+      </view>
+
+
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>10月</view> 
+          <view class='text-sj-type margin-top-up-5' >4号</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchh.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>上海ACT、AP课程集训</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>12月</view> 
+          <view class='text-sj-type margin-top-up-5' >4号</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchh.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>学校课程、AP课程和辅导课程，保持成绩稳步上升</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>01月</view> 
+          <view class='text-sj-type margin-top-up-5' >4号</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchh.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>足球队训练、开始新学年课程</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+      
+</view> 
+
+
+<view class='select'>
+    <image class='selectTarbar' src='/public/image/select.png'></image>
+</view> 

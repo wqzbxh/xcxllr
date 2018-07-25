@@ -1,0 +1,74 @@
+<import src="../../template/courseList.wxml"/>
+<template is="msgItem" data="{{...item}}"/>
+<view class=' bk-fff border-raduis-1 padding-t-up-1 container margin-top-2 shadow '>
+        <view class="flex-wrp row textFont-12" style="flex-direction:row;">
+        <view class="flex-item col-la-5 margin-top-up-5 margin-lef-up-2"> 
+          <view class='border-ccc border-raduis-1'><image class='headerimag' src='/public/image/header.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8 ">  
+            <view class='textFont-12 text-leve-left'>　　Alice</view> 
+            <view class='textFont-12 text-leve-left color-666 padding-top-up-2'>　　年级：初中八年级</view> 
+            <view class='textFont-12 text-leve-left color-666 padding-top-up-2'>　　电话：132512169521</view> 
+        </view>
+      </view>
+</view> 
+<view class=' bk-fff border-raduis-1 padding-t-up-1 container margin-top-2 shadow '>
+        <view class="flex-wrp row textFont-12" style="flex-direction:row;">
+        <view class="flex-item col-la-5 margin-top-up-5 margin-lef-up-2"> 
+          <view class='border-ccc border-raduis-1'><image class='headerimag' src='/public/image/header.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8 ">  
+            <view class='textFont-12 text-leve-left'>　　Lili</view> 
+            <view class='textFont-12 text-leve-left color-666 padding-top-up-2'>　　年级：初中十年级</view> 
+            <view class='textFont-12 text-leve-left color-666'>　　电话：15803807833</view> 
+        </view>
+      </view>
+</view> 
+<view class=' bk-fff border-raduis-1 padding-t-up-1 container margin-top-2 shadow '>
+        <view class="flex-wrp row textFont-12" style="flex-direction:row;">
+        <view class="flex-item col-la-5 margin-top-up-5 margin-lef-up-2"> 
+          <view class='border-ccc border-raduis-1'><image class='headerimag' src='/public/image/header.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8 ">  
+            <view class='textFont-12 text-leve-left'>　　Meacle</view> 
+            <view class='textFont-12 text-leve-left color-666 padding-top-up-2'>　　年级：初中八年级</view> 
+            <view class='textFont-12 text-leve-left color-666 padding-top-up-2'>　　电话：18739475763</view> 
+        </view>
+      </view>
+</view> 
+<view class=' bk-fff border-raduis-1 padding-t-up-1 container margin-top-2 shadow '>
+        <view class="flex-wrp row textFont-12" style="flex-direction:row;">
+        <view class="flex-item col-la-5 margin-top-up-5 margin-lef-up-2"> 
+          <view class='border-ccc border-raduis-1'><image class='headerimag' src='/public/image/header.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8 ">  
+            <view class='textFont-12 text-leve-left'>　　Jack</view> 
+            <view class='textFont-12 text-leve-left color-666 padding-top-up-2'>　　年级：初中九年级</view> 
+            <view class='textFont-12 text-leve-left color-666 padding-top-up-2'>　　电话：1888888</view> 
+        </view>
+      </view>
+</view> 
+<view class=' bk-fff border-raduis-1 padding-t-up-1 container margin-top-2 shadow '>
+        <view class="flex-wrp row textFont-12" style="flex-direction:row;">
+        <view class="flex-item col-la-5 margin-top-up-5 margin-lef-up-2"> 
+          <view class='border-ccc border-raduis-1'><image class='headerimag' src='/public/image/header.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8 ">  
+            <view class='textFont-12 text-leve-left'>　　Alice</view> 
+            <view class='textFont-12 text-leve-left color-666 padding-top-up-2'>　　年级：初中八年级</view> 
+            <view class='textFont-12 text-leve-left color-666 padding-top-up-2'>　　电话：132512169521</view> 
+        </view>
+      </view>
+</view> 
+<view class=' bk-fff border-raduis-1 padding-t-up-1 container margin-top-2 shadow '>
+        <view class="flex-wrp row textFont-12" style="flex-direction:row;">
+        <view class="flex-item col-la-5 margin-top-up-5 margin-lef-up-2"> 
+          <view class='border-ccc border-raduis-1'><image class='headerimag' src='/public/image/header.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8 ">  
+            <view class='textFont-12 text-leve-left'>　　Alice</view> 
+            <view class='textFont-12 text-leve-left color-666 padding-top-up-2'>　　年级：初中八年级</view> 
+            <view class='textFont-12 text-leve-left color-666 padding-top-up-2'>　　电话：132512169521</view> 
+        </view>
+      </view>
+</view> 

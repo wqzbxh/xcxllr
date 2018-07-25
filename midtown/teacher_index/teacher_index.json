@@ -1,0 +1,12 @@
+{
+  "navigationBarBackgroundColor": "#66CCC4",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "首页",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "#000",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+      "calendar": "/components/calendar/calendar"
+  }
+  
+}

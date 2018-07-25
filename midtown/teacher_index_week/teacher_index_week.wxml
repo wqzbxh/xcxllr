@@ -1,0 +1,105 @@
+<import src="../../template/courseList.wxml"/>
+<template is="msgItem" data="{{...item}}"/>
+<view></view>
+ <view class="flex-wrp row textFont-15" style="flex-direction:row;">
+        <navigator url='../teacher_index/teacher_index'  class="flex-item col-la-3 padding-t-1 border-buttom-out"> 
+            日程
+        </navigator>
+        <navigator url='../teacher_index_niandu/teacher_index_niandu' class="flex-item col-la-3 padding-t-1 border-buttom-out"> 
+             年度
+        </navigator>
+        <view  class="flex-item col-la-3 padding-t-1 border-buttom"> 
+              课程
+        </view>
+      </view>
+
+
+    <view class='container padding-t-up-1'>
+        <view class="flex-wrp row textFont-12 " style="flex-direction:row;">
+            <view class="flex-item col-la-3 "> 
+              <view class='text-sj-type margin-top-up-5' > 　 </view> 
+            </view>
+            <view class="flex-item col-la-3 flex-wrp border-66CCC4 border-raduis-1"> 
+              <view class='flex-item col-la-2 text-sj-type padding-top-up-2 text-leve-center border-r border-raduis-left1 color-fff' > 日</view> 
+              <view class='flex-item col-la-2 text-sj-type padding-top-up-2 text-leve-center color-66CCC4' > 周</view> 
+            </view>
+            <picker  class="flex-item col-la-3 margin-top-up-5 text-leve-right" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                    {{array[index]}}　▼
+              </picker>
+          　 
+          </view>
+    </view> 
+      <!--日历插件  -->
+      <calendar id='calendar'>
+
+      </calendar>
+      <!-- 日历插件结束 -->
+
+
+<view class=' bk-fff border-raduis-1 padding-t-2 container margin-top-2 shadow '>
+    <view class="flex-wrp row textFont-12" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>8:30</view> 
+          <view class='text-sj-type margin-top-up-5' >AM</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchr.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>First Year Forum .xx老师</view> 
+        </view>
+      </view>
+
+
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>10:30</view> 
+          <view class='text-sj-type margin-top-up-5' >AM</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchh.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>Korean .xx老师</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>10:30</view> 
+          <view class='text-sj-type margin-top-up-5' >AM</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchh.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>Korean .xx老师</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>10:30</view> 
+          <view class='text-sj-type margin-top-up-5' >AM</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchh.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>Korean .xx老师</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+      
+</view> 
+
+
+<view class='select'>
+    <image class='selectTarbar' src='/public/image/select.png'></image>
+</view> 

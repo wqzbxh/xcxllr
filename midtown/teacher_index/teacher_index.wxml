@@ -1,0 +1,186 @@
+<import src="../../template/courseList.wxml"/>
+<template is="msgItem" data="{{...item}}"/>
+<view></view>
+ <view class="flex-wrp row textFont-15" style="flex-direction:row;">
+        <view class="flex-item col-la-3 padding-t-1 border-buttom"> 
+            日程
+        </view>
+        <navigator url='../teacher_index_niandu/teacher_index_niandu' open-type='redirect' class="flex-item col-la-3 padding-t-1 border-buttom-out"> 
+             年度
+        </navigator>
+        <navigator url='../teacher_index_week/teacher_index_week' open-type='redirect' class="flex-item col-la-3 padding-t-1  border-buttom-out"> 
+              课程
+        </navigator>
+      </view>
+<calendar id='calendar'>
+
+</calendar>
+
+
+<view class=' bk-fff border-raduis-1 padding-t-2 container margin-top-2 shadow '>
+    <view class="flex-wrp row textFont-12" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>8:30</view> 
+          <view class='text-sj-type margin-top-up-5' >通知</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchr.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>家长学生面谈家长学生面谈</view> 
+        </view>
+      </view>
+
+
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>10:30</view> 
+          <view class='text-sj-type margin-top-up-5' >通知</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchh.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>有Jack的英语作文课</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>14:20</view> 
+          <view class='text-sj-type margin-top-up-5' >通知</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchr.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>家长学生面谈家长学生面谈</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>15:30</view> 
+          <view class='text-sj-type margin-top-up-5' >通知</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchz.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>家长学生面谈家长学生面谈</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>17:30</view> 
+          <view class='text-sj-type margin-top-up-5' >通知</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchr.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>家长学生面谈家长学生面谈</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>20:30</view> 
+          <view class='text-sj-type margin-top-up-5' >通知</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchr.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>家长学生面谈家长学生面谈</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>23:30</view> 
+          <view class='text-sj-type margin-top-up-5' >通知</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchr.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>家长学生面谈家长学生面谈</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>8:30</view> 
+          <view class='text-sj-type margin-top-up-5' >通知</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchr.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>家长学生面谈家长学生面谈</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>15:30</view> 
+          <view class='text-sj-type margin-top-up-5' >通知</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchr.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>家长学生面谈家长学生面谈</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+<!-- 输出 -->
+       <view class="flex-wrp row textFont-12 margin-top-2" style="flex-direction:row;">
+        <view class="flex-item col-la-5 "> 
+          <view class='text-sj'>16:30</view> 
+          <view class='text-sj-type margin-top-up-5' >通知</view> 
+        </view>
+        <view class="flex-item col-la-5 margin-top-up-5"> 
+          <view><image class='imgTarbar' src='/public/image/pitchr.png'></image></view> 
+        </view>
+        <view  class="flex-item col-la-2 margin-top-up-8">  
+          <view class='textFont-12'>家长学生面谈家长学生面谈</view> 
+        </view>
+      </view>
+<!-- 结束输出 -->
+      
+</view> 
+
+<view class='select'>
+  <view wx:if="{{status == 1}}">
+      <image class='selectTarbar'  src='/public/image/select.png'  bindtap='select'></image>
+  </view>
+
+  <view  class='thickness' wx:else>
+      <view class='imgType'>
+          <view><image class='selectTarbar'  src='/public/image/xuanke.png' data-path='xuanke' bindtap='getActivity'></image></view>
+          <view><image class='selectTarbar'  src='/public/image/tixing.png' data-path='xuanke' bindtap='getActivity'></image></view>
+          <view><image class='selectTarbar'  src='/public/image/huodong.png' data-path='activity' bindtap='getActivity'></image></view>
+          <view><image class='selectTarbar'  src='/public/image/tongzhi.png' data-path='xuanke' bindtap='getActivity'></image></view>
+          <view><image class='selectTarbar'  src='/public/image/cecal.png' data-path='cancel' bindtap='getActivity'></image></view>
+      </view>
+  </view>
+</view> 

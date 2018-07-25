@@ -1,0 +1,37 @@
+<view class='container'>
+  <view class=' bk-fff border-raduis-1 padding-t-2 container margin-top-1 shadow '>
+      <view class='textFont-15 textFont-12 border-bottom-ccc padding-bottom-1-5' style="flex-direction:row;width:80%;margin:0 auto;">学校学生系统</view>
+      <view>
+          <view class="flex-wrp row textFont-12 border-bottom-ccc " style="flex-direction:row;width:80%;margin:0 auto;">
+            <view class="flex-item col-la-6 margin-top-1 "> 
+              <view><image class='ico-1' src='/public/image/login.png'></image></view> 
+            </view>
+            <view class="flex-item col-la-6 margin-top-1"> 
+              <view class='textFont-l-14'>　账号</view> 
+            </view>
+            <view  class="flex-item col-la-2 margin-top-1  text-leve-left">  
+              <input type='text' class='' disabled='ture' value='　88888888'/>
+            </view>
+          </view>
+
+         <view class="flex-wrp row textFont-12 border-bottom-ccc " style="flex-direction:row;width:80%;margin:0 auto;">
+            <view class="flex-item col-la-6 margin-top-1 "> 
+              <view><image class='ico-1' src='/public/image/login.png'></image></view> 
+            </view>
+            <view class="flex-item col-la-6 margin-top-1"> 
+              <view class='textFont-l-14'>　密码</view> 
+            </view>
+            <view  class="flex-item col-la-2 margin-top-1  text-leve-left">  
+              <input type='text' class='' disabled='ture' value='　*********'/>
+            </view>
+          </view>
+      </view>
+  </view>
+  <!-- 提醒 -->
+  <view class='text-leve-center margin-top-5'>
+      <image src='/public/image/computer.png' class='selectTarbar'></image>
+      <view class='color-8a8a8a .textFont-15'>请复制链接在电脑浏览器中打开操作</view>
+      <view class='color-8a8a8a textFont-12'>www.baidu.com</view>
+  </view> 
+  <!-- 提醒End-->
+</view>

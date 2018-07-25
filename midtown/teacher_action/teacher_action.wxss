@@ -1,0 +1,4 @@
+/* midtown/teacher_action/teacher_action.wxss */
+page{
+  background: #F6F8F9;
+}

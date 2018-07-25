@@ -1,0 +1,330 @@
+/**app.wxss**/
+@import "/template/courseList.wxss";
+.flex-wrp {display: flex;}
+.container{
+  width: 94%;
+  margin:0 auto;
+}
+
+.canvas {
+    width: 100%;
+    height: 160px;
+}
+
+/* 图片大小 */
+.ico-1{
+  width:1rem;
+  height: 1rem
+}
+
+/* tarbar设置 */
+.tarbar{
+  position:fixed;
+  bottom: 0px; 
+  width: 100%;
+  background: #fff;
+}
+
+.imgTarbar{
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.tarbarview{
+  text-align: center;
+  width:33.33333%;
+  font-size: 0.6rem;
+  color: #515151;
+}
+.tarbarCur{
+  color: #66CCC4;
+}
+
+/*  悬浮设置*/
+.select{
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+}
+
+.selectTarbar{
+  width:3rem;
+  height: 3rem;
+}
+
+
+/* 宽度集合 */
+.row{
+  width: 100%;
+}
+
+.col-la-2{
+  width: 50%;
+}
+.col-la-3{
+  width: 33.3333%;
+}
+.col-la-4{
+  width: 25%;
+}
+.col-la-5{
+  width: 20%;
+}
+.col-la-6{
+  width: 16.6666%;
+}
+.col-la-7{
+  width: 14.28571%;
+}
+
+/* 颜色集合 */
+.color-90ED7D{
+  color: #90ED7D;
+}
+.color-7CB5EC{
+  color: #7CB5EC;
+}
+.color-F7A35C{
+  color: #F7A35C;
+}
+.color-434348{
+  color: #434348;
+}
+.color-666{
+  color: #666;
+}
+
+.color-fff{
+  color: #fff;
+}
+.color-66CCC4{
+  color: #66CCC4;
+}
+.color-8a8a8a{
+  color: #8a8a8a;
+}
+/* 背景颜色集合 */
+.bk-66CCC4{
+  background: #66CCC4;
+}
+.bk-fff{
+  background: #fff;
+}
+
+/* 圆角集合 */
+
+.border-raduis-1{
+  border-radius: 1rem;
+}
+.border-raduis-2{
+  border-radius: 2rem;
+}
+.border-raduis-left1{
+  border-top-left-radius:1rem;
+  border-bottom-left-radius:1rem;
+}
+
+/* 填充集合 */
+.margin-top-5{
+  margin-top:5rem
+}
+.margin-top-1{
+  margin-top:1rem;
+}
+.margin-top-2{
+  margin-top:2rem;
+}
+.margin-lef-up-2{
+  margin-left:0.2rem;
+}
+.margin-lef-2{
+  margin-left:2rem;
+}
+
+.margin-lef-1{
+  margin-left:1rem;
+}
+
+.padding-top-up-2{
+  padding-top:0.2rem;
+}
+.margin-top-01{
+  margin-top:-1rem;
+}
+.margin-top-up-5{
+  margin-top:0.5rem;
+}
+.margin-top-up-8{
+  margin-top:0.8rem;
+}
+.margin-top-up-9{
+  margin-top:0.9rem;
+}
+.margin-top-up-2{
+  margin-top:10px;
+}
+.margin-bottom-10{
+  margin-bottom:5rem;
+}
+.padding-t-1{
+  padding:1rem 0 ;
+}
+.padding-t-up-1{
+  padding:0.5rem 0 ;
+}
+.padding-t-up-2{
+  padding-top:0.2rem 0 ;
+}
+
+.padding-t-2{
+  padding:2rem 0 ;
+}
+.padding05{
+  padding: 0.5rem;
+}
+
+.padding-bottom-1-5{
+  padding-bottom:1.5rem;
+}
+
+
+/* 高度 */
+.height-10{
+  height:12rem;
+}
+
+.height-6{
+  height:6rem;
+}
+
+/*字体 */
+.textFont-12{
+  font-size: 12px;
+  text-align: center;
+}
+
+.textFont-l-14{
+  font-size: 14px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.textFont-15{
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.textFont-13{
+  font-size: 13px;
+  text-align: center;
+}
+.textFont-14{
+  font-size: 13px;
+}
+.text-sj{
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.text-sj-type{
+  font-size: 11px;
+}
+
+.text-leve-right{
+  text-align: right;
+}
+.text-leve-center{
+  text-align: center;
+}
+.text-leve-left{
+  text-align: left;
+}
+
+.posix{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+  
+}
+
+.shadow{
+box-shadow:0px 1px 1px 1px #ccc;
+}
+
+/* 线条 */
+.border-buttom{
+  border-bottom: 2px solid #66CCC4;
+}
+.border-buttom-out{
+ border-bottom: 2px solid #eee;
+}
+
+.border-66CCC4{
+  border: 2px solid #66CCC4;
+}
+.border-ccc{
+  border: 1px solid #ccc;
+}
+.border-bottom-ccc{
+  border-bottom: 1px solid #ccc;
+}
+.border-r{
+  background: #66CCC4;
+}
+.headerimag{
+  width: 3rem;
+  height: 3rem;
+}
+/* 复选框样式 */
+checkbox .wx-checkbox-input{
+   border-radius: 50%;/* 圆角 */
+   width: 40rpx; /* 背景的宽 */
+   height: 40rpx; /* 背景的高 */
+   border: 2px solid #ccc;
+}
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+   border: none;
+   background: #66CCC4;
+}
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+   border-radius: 50%;/* 圆角 */
+   width: 40rpx;/* 选中后对勾大小，不要超过背景的尺寸 */
+   height: 40rpx;/* 选中后对勾大小，不要超过背景的尺寸 */
+   line-height: 40rpx;
+   text-align: center;
+   font-size:30rpx; /* 对勾大小 30rpx */
+   color:#fff; /* 对勾颜色 白色 */
+   background: transparent;
+   transform:translate(-50%, -50%) scale(1);
+   -webkit-transform:translate(-50%, -50%) scale(1);
+}
+/* 层 */
+.thickness{
+  top: 0px;
+  left:0;
+  width:100%;
+  height: 100%;
+  -moz-opacity:0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.9;
+  position:fixed;
+  color: #000;
+  z-index: 99;
+  background-color:#fff!important;
+  filter:Alpha(opacity=50);
+  }
+  .imgType{
+    position:absolute;
+    bottom: 60px;
+    right: 10px;
+    z-index: 1000;
+  }
+
+  /* 输入框 */
+  .inputCLass{
+    margin-top: -5px;
+    font-size: 14px;
+  }

@@ -1,0 +1,14 @@
+<form>
+<view class=''>
+    <checkbox-group bindchange="checkboxChange">
+      <view class="checkbox margin-t-up-1 border-bottom-ccc padding-bottom-1-5" wx:for="{{items}}">
+        　<checkbox value="{{item.name}}" checked="{{item.checked}}"/>
+        　<image style='' class='test' src='{{item.img}}'></image>　
+            {{item.value}}
+      </view>
+    </checkbox-group>
+  </view>
+  <button class='tarbar color-fff bk-66CCC4' type=''>确定</button>
+</form>
+
+

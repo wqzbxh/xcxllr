@@ -1,0 +1,18 @@
+<!-- 老师首页tarbar -->
+<template name="msgItem">
+      <view class="flex-wrp tarbar" style="flex-direction:row;">
+        <navigator  url='../teacher_index/teacher_index' open-type='redirect' class="flex-item tarbarview  {{indexAction}}"> 
+            <view><image class='imgTarbar' src='{{index_path}}'></image></view>
+            <view>首页</view>
+        </navigator>
+        <navigator url='../teacher_action/teacher_action' open-type='redirect' class="flex-item tarbarview  {{action}}"> 
+            <view><image  class='imgTarbar' src='{{action_path}}'></image></view>
+            <view>功能</view>
+        </navigator>
+        <navigator url='../teacher_student/teacher_student' open-type='redirect'  class="flex-item tarbarview  {{studentAction}}">  
+            <view><image  class='imgTarbar' src='{{student_path}}'></image></view>
+            <view>学生</view>
+        </navigator>
+      </view>
+</template>
+<!--end 老师首页tarbar end-->

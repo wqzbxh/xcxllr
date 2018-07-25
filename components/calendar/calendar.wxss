@@ -1,0 +1,137 @@
+/* component/calendar/calendar.wxss */
+/*  日历-start  */
+.wrapper {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+.today{
+  /* background-color: #038fff; */
+  margin-left: 20rpx;
+  padding:7rpx 12rpx;
+  border: 1rpx #038fff solid;
+  border-radius: 30rpx;
+  font-size: 24rpx;
+  color: #038fff;
+  }
+.og-calendar {
+    background-color: white;
+    color: #313133;  
+}
+.og-calendar .header {
+    position: relative;
+   /* / height: 90rpx; */
+    line-height:90rpx;
+    font-size: 30rpx;
+    text-align: center;
+    color: #808080;
+    border-bottom: solid 1px #e5e5e5;
+}
+.date-info{
+  text-align: left;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+}
+.morePlan{
+  position: absolute;
+  right: 20rpx;
+  top: 0;
+  height: 80rpx;
+  width: 100rpx;
+}
+.turnrightImg{
+   width: 15rpx;
+   height: 20rpx;
+   margin-left: 10rpx;
+}
+.og-calendar .week {
+   color: #808080;
+   height: 70rpx;
+   font-size: 24rpx;
+}
+.og-calendar .col {
+    width: 14.28571428571429%;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15rpx 0;
+}
+.og-calendar .col text {
+    display: block;
+    width: 50rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    border: 2rpx solid transparent;
+}
+.weekShow{
+  height: 90rpx;
+  overflow: hidden;  
+}
+.monthShow{
+  height: 480rpx;
+}
+.og-calendar .body .col{
+   position: relative;
+   font-size: 28rpx;
+}
+.havePlanDot{
+   position: absolute;
+   bottom: -10rpx;
+   width: 100%;
+   color: #038fff;
+   font-size: 50rpx;
+   display: none
+}
+.og-calendar .body .col.active text {
+    border-color: #038fff;
+}
+.og-calendar .body .col.old {
+    color: #a0a0a0
+} 
+.og-calendar .body .col.current text,
+.og-calendar .body .col text:active {
+    background-color: #038fff;
+    color: #FFF;
+}
+
+.planDetail{
+  background-color: white;
+  color: #313133;
+  display: none;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  font-size: 26rpx;
+   border-top: dashed 1px #e5e5e5;
+}
+.detail-title{
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: solid 1px #e5e5e5;
+}
+.plan-item{
+  height: 120rpx;
+  display: flex;
+}
+.item-left{
+  flex: 1;
+  line-height: 60rpx;
+}
+.item-mid{
+  flex: 1;
+  text-align: center;
+}
+.item-mid image{
+   width: 40rpx;
+   height: 40rpx;
+   margin-top: 40rpx;
+}
+.item-right{
+  flex: 6;
+  line-height: 120rpx;
+  font-size: 30rpx;
+  padding-left: 20rpx;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  border-bottom: dashed 1px #e5e5e5;
+}
+
+/*  日历-end  */

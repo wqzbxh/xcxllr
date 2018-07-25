@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "midtown/teacher_action/teacher_action",
+    "midtown/activity/activity",
+    "midtown/teacher_index/teacher_index",
+    "midtown/information_collection/information_collection",
+    "midtown/select_student/select_student",
+    "midtown/teacher_student/teacher_student",
+    "midtown/teacher_index_week/teacher_index_week",
+    "midtown/teacher_index_niandu/teacher_index_niandu"
+    
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

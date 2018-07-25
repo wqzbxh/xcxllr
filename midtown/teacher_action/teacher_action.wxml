@@ -1,0 +1,64 @@
+<import src="../../template/courseList.wxml"/>
+<template is="msgItem" data="{{...item}}"/>
+
+
+
+<view class="container bk-fff border-raduis-1 height-10 shadow">
+    <canvas canvas-id="ringCanvas" class="canvas"  bindtouchstart="touchHandler"></canvas>
+    <view class='margin-top-01 bk-fff'>
+      <view class="flex-wrp row textFont-12" style="flex-direction:row;">
+        <view class="flex-item col-la-6"> 
+          <text class='color-90ED7D'>●</text>  通知
+        </view>
+        <view class="flex-item col-la-6"> 
+          <text class='color-7CB5EC'>●</text>  活动
+        </view>
+        <view  class="flex-item col-la-6">  
+          <text class='color-F7A35C'>●</text>  提醒
+        </view>
+        <view  class="flex-item col-la-6">  
+          <text class='color-434348'>●</text>  选课
+        </view>
+        <view  class="flex-item col-la-6">  
+          ▼  本周
+        </view>
+        <view  class="flex-item col-la-6">  
+          ▼ 完成
+        </view>
+      </view>
+    </view> 
+</view>
+<view class='posix bk-66CCC4 height-6'>
+  
+</view>
+
+<view class=' bk-fff border-raduis-1 margin-top-2 height-10 container shadow'>
+    <view class="flex-wrp row textFont-12" style="flex-direction:row;">
+        <navigator url='../information_collection/information_collection' class="flex-item col-la-4 margin-top-2"> 
+          <image  class='imgTarbar' src='{{gather}}'></image>
+          <view>信息采集</view> 
+        </navigator>
+        <view class="flex-item col-la-4 margin-top-2"> 
+          <image  class='imgTarbar' src='{{courses}}'></image> 
+          <view>选课规划</view> 
+        </view>
+        <view  class="flex-item col-la-4 margin-top-2">  
+          <image class='imgTarbar' src='{{feedback}}'></image>  
+          <view>导师反馈</view> 
+        </view>
+        <view  class="flex-item col-la-4 margin-top-2">  
+          <image  class='imgTarbar' src='{{soft_power}}'></image>  
+          <view>软实力</view> 
+        </view>
+      </view>
+      <view class="flex-wrp row textFont-12 margin-top-1" style="flex-direction:row;">
+        <view class="flex-item col-la-4 margin-top-2"> 
+          <image  class='imgTarbar' src='{{power}}'></image> 
+          <view>硬实力</view> 
+        </view>
+        <view class="flex-item col-la-4 margin-top-2"> 
+          <image  class='imgTarbar' src='{{statistics}}'></image>
+          <view>数据统计</view> 
+        </view>
+      </view>
+</view> 

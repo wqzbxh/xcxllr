@@ -1,0 +1,6 @@
+/* midtown/select_student/select_student.wxss */
+.test{
+  width:30px;height:30px;
+  position: relative;
+  top: 0.8rem;
+}
